@@ -151,8 +151,8 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-    prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
-    open('.prox.txt','w').write(prox)
+    prox= requests.get('https://github.com/devil-billa/Devil/blob/main/devil.txt').text
+    open('.devil.txt','w').write(prox)
 except Exception as e:
     pass
 prox=open('.prox.txt','r').read().splitlines()
